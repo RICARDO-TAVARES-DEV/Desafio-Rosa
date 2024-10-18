@@ -279,52 +279,60 @@ font-weight: 700;
 }
 .box1{
 width: 100vw;
+height: 70vh;
 display: flex;
-justify-content: space-around;
-padding: 3.25vh;
+flex-direction: column-reverse;
+align-items: center;
+padding-top: 10px;
 background-color: #FFD9EC;
 }
 
 .texto1{
-width: 45vw;
+width: 65vw;
 font-size: 2.06vh;
-font-weight: 400;
-color: #000;
+font-weight: 800;
+padding-top: 20px;
+color: #ff69b4;
 }
 
 .rosa1{
-width: 37vw;
-height: 38vh;
+width: 55vw;
+height: 45vh;
 }
 
 .box2{
 width: 100vw;
-height: 50vh;
+height: 55vh;
 display: flex;
-justify-content: space-around;
-padding: 3.25vh;
+flex-direction: column;
+align-items: center;
 background-color: #ff69b4;
-color: #000;
+
 }
 
 .texto2{
-width: 45vw;
+width: 70vw;
 font-size: 2.06vh;
-font-weight: 400;
+font-weight: 800;
+color: #FFD9EC;
 }
 
 .rosa2{
+<<<<<<< HEAD
 width: 46vw;
 height: 30.05vh;
+=======
+width: 65vw;
+height: 15vh;
+>>>>>>> e74c01b (atualizado)
 }
 
 .box3{
 display: flex;
-
 width: 100vw;
-height: 69.27vh;
-padding-top: 11.38vh;
-padding-left: 3vw;
+height: 37vh;
+padding: 1vh;
+// padding-left: 3vw;
 background-color: #FFD9EC;
 }
 
@@ -335,26 +343,27 @@ height: 30vh;
 
 .rodape{
 width: 100vw;
-height: 33.41vh;
+height: 40vh;
 display: flex;
-justify-content: space-between;
+justify-content:center;
 align-items: center;
-background-color:#ff69b4;
+background-color:#ec4ad1;
+padding-bottom: 6.20vh;
 }
 
 div{
-width: 53vw;
+width: 63vw;
 display: flex;
 align-items: center;
 flex-direction: column;
 }
 
 .textofim{
-width: 30vw;
+width: 40vw;
 display: flex;
-align-items: start;
-font-size: 3.4vw;
-color: #fff;
+font-size: 5vw;
+font-weight: 900;
+color: #FFD9EC;
 }
 .redes{
 display: flex;
